@@ -1,0 +1,131 @@
+.main {
+    background-image: url(./Assets/pokeball.jpeg);
+    background-attachment:fixed;
+    background-size: cover;
+    min-height: 100vh;
+
+}
+
+.input { 
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom:50px;
+    padding-top: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    position: relative;
+    min-width: 30%;
+    
+}
+
+
+.input__filter {
+        width: 15vw;
+        height: 5vh;
+        background-color: rgba(245, 245, 220, 0);
+        border-top-style: none;
+        border-left-style: none;
+        border-right-style: none;
+        border-left-color: rgba(137, 43, 226, 0);
+        border-top-color: rgba(137, 43, 226, 0);
+        border-right-color: rgba(245, 245, 220, 0);
+        border-bottom-color: yellow;
+        border-bottom-width: 6px;
+        outline: none;
+        min-width: 30%;
+        font-size: 33px;
+        font-family: 'Orbitron', 'Poppins';
+        color: white;
+        display: flex;
+        flex-wrap: wrap;
+
+}
+
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    justify-content: flex-start;
+    gap: 60px;
+    width: 100%;
+    flex-wrap: wrap;
+    align-items: center;
+    max-width: 90%;
+    margin: auto;
+
+}
+
+.pokes {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    background-image: url(./Assets/card.png);
+    height: 100%;
+    width: 10%;
+    min-width: 230px;
+    min-height: 340px;
+    border-style: solid;
+    border-color: black;
+    align-items: center;
+    border-radius: 10px;
+    background-size: cover;
+    margin: 15px auto;
+    flex-wrap: wrap;
+        
+}
+
+
+
+
+.pokes:hover {
+    transform: scale(1.3);
+    background-color: black;
+    box-shadow: 20px 20px  20px rgba(255, 255, 255, 0.508);
+}
+
+
+.pokes__header {
+    margin-top: 20px;
+    margin-left: 20px;
+    width: 90%;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: row;
+    padding-bottom: 7 px;
+    text-transform: uppercase;
+    align-items: baseline;
+    font-family: 'Orbitron', 'Poppins';
+    font-size: 13px;
+}
+
+.pokes__id {
+    align-self: center;
+    text-transform: uppercase;
+    font-family: 'Orbitron', 'Poppins';
+    font-size: 15px;
+    margin-top: 45px;
+
+
+}
+
+.pokes__types {
+    width: 100%;
+    margin-right: 30px;
+}
+
+.pokes__name {
+    margin-top: 10px;
+    text-transform: uppercase;
+    font-family: 'Orbitron', 'Poppins';
+;
+}
+
+.pokes__img{
+    height: 150px;
+    margin-top: 30px;
+}
+      
+.filtro {
+    display: none;
+}

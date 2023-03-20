@@ -1,0 +1,122 @@
+
+body {
+  background-image: url(./Assets/Prize.jpeg);
+  background-size: cover;   
+  min-width: 390px;
+  height: 100vh; 
+}   
+
+.title {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: 'Orbitron', 'Poppins';
+  color: yellow;
+  font-size:  40px;
+  margin-top: 0px;
+}
+
+
+.search{
+  display:flex;
+  flex-direction: row;
+}
+
+.text {
+  width: 27vw;
+  height: 10vh;
+  background-color: rgba(245, 245, 220, 0);
+  border-top-style: none;
+  border-left-style: none;
+  border-right-style: none;
+  border-left-color: rgba(137, 43, 226, 0);
+  border-top-color: rgba(137, 43, 226, 0);
+  border-right-color: rgba(245, 245, 220, 0);
+  border-bottom-color: yellow;
+  border-bottom-width: 6px;
+  outline: none;
+  min-width: 28%;
+  font-size: 33px;
+  font-family: 'Orbitron', 'Poppins';
+  color: white;
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 20px;
+}
+
+
+
+.todo__img {
+  height:20px;
+  border-style: none;
+  background-color: black;
+
+}
+
+.button{
+  /* height:30px; */
+  background-color: rgba(255, 255, 255, 0);
+  border-style: none;
+  font-size: 60px;
+}
+
+.plus {
+  height:30px;
+  background-color: rgba(255, 255, 255, 0);
+  border-style: none;
+}
+
+.li {
+  display: flex;
+  justify-content: space-evenly;
+  max-width: 90%;
+  justify-content: flex-start;
+}
+
+.eliminar{
+  border-style: none;
+  border-radius: 100px;
+  background-color: rgba(0, 255, 255, 0);
+}
+
+.list {
+  list-style: circle;
+  color: white;
+  font-family: 'Orbitron', 'Poppins';
+  font-size: 23px;
+  margin-right: 50px;
+  max-width:90%;
+}
+
+.empty{
+  list-style: none;
+  color: white;
+  font-family: 'Orbitron', 'Poppins';
+  font-size: 25px;
+  margin-left: 30px;
+  max-width:90%;
+}
+
+
+.descartados {
+  font-family: 'Orbitron', 'Poppins';
+  font-size: 18px;
+}
+
+.centrar {
+  display: flex;
+  align-self: center;
+  justify-content: center;
+
+}
+
+.vuelve{
+  position: bottom;
+  font-family: 'Orbitron', 'Poppins';
+  font-size:  15px;
+  color: white;
+  text-decoration: none;
+  background-color: rgba(240, 248, 255, 0.01);
+  border-style: none;
+  margin-bottom: 0px;
+}
